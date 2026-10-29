@@ -1,0 +1,15 @@
+
+n = int(input())
+c = 0
+pos = 0
+neg = 0
+for i in range(n):
+    a = int(input())
+    if a == 0:
+        c += 1
+    if a > 0:
+        pos += 1
+    if a < 0:
+        neg += 1
+
+print(c, pos, neg)
