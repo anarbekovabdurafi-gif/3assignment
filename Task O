@@ -1,0 +1,12 @@
+
+n = int(input())
+f = False
+
+for i in range(n):
+    a = int(input())
+    if i==0:
+        f=True
+if f==False:
+    print("YES")
+else:
+    print("NO")
